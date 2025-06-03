@@ -1,4 +1,4 @@
-package com.example.Template.model;
+package com.example.Banking.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;

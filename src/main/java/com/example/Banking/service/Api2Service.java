@@ -1,11 +1,11 @@
-package com.example.Template.service;
+package com.example.Banking.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.example.Template.model.Api2;
-import com.example.Template.repository.Api2Repository;
+import com.example.Banking.model.Api2;
+import com.example.Banking.repository.Api2Repository;
 
 import java.util.List;
 import java.util.Optional;

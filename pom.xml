@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>springboot-template-anisadleena</artifactId>
+	<artifactId>banking-api-playground</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Springboot Template</name>
-	<description>Springboot Template back-end project for MySelf-project</description>
+	<name>Springboot Banking</name>
+	<description>Springboot Banking back-end project for MySelf-project</description>
 	<properties>
 		<java.version>21</java.version>
 	</properties>

@@ -1,24 +1,22 @@
-package com.example.Template.model;
+package com.example.Banking.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
+
 @Entity
-@Table(name="template_user")
+@Table(name="template_status")
 @Getter
 @Setter
-public class Api3 {
+public class Api1 {
 
     @Id
     @Column(name="id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name="username")
-    private String username;
-    @Column(name="email")
-    private String email;
-
+    @Column(name="status_name")
+    private String statusName;
 }

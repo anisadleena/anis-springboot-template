@@ -1,10 +1,10 @@
-package com.example.Template.api;
+package com.example.Banking.api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.Template.model.Api2;
-import com.example.Template.service.Api2Service;
+import com.example.Banking.model.Api2;
+import com.example.Banking.service.Api2Service;
 
 import org.springframework.http.HttpStatus;
 import java.util.List;
