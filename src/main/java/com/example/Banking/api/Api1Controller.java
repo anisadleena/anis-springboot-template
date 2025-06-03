@@ -18,6 +18,7 @@ public class Api1Controller {
 
     @Autowired
     Api1Service statusService;
+    
 
     @GetMapping("/get/All")
     public ResponseEntity<List<Api1>> getAllStatus(){
