@@ -7,6 +7,7 @@ import com.example.Banking.model.Customer;
 import com.example.Banking.repository.CustomerRepository;
 
 import java.util.List;
+import java.util.UUID;
 
 @Service
 public class CustomerService {
@@ -25,6 +26,8 @@ public class CustomerService {
         if (customerRepository.findByEmail(customer.getEmail()).isPresent()) {
             return "Email already in use";
         }
+         // Set UUID
+        customer.setId(UUID.randomUUID().toString());
         customerRepository.save(customer); 
         return "customer registered successfully";
     }

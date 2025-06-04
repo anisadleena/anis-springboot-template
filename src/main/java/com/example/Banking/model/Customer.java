@@ -13,9 +13,8 @@ import lombok.Setter;
 public class Customer {
 
     @Id
-    @Column(name="id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    @Column(name = "id", updatable = false, nullable = false)
+    private String id;
 
     @Column(name="username")
     private String username;
